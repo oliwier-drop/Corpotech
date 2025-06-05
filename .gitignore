@@ -1,0 +1,49 @@
+# Systemowe pliki
+.DS_Store
+Thumbs.db
+
+# Logi i tymczasowe pliki
+*.log
+*.tmp
+*.swp
+
+# Katalogi systemowe IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Zależności (Node.js, Python, PHP itp.)
+node_modules/
+vendor/
+venv/
+.env
+
+# Kompilowane pliki / buildy
+/dist/
+/build/
+/public/build/
+/*.class
+*.pyc
+*.o
+*.so
+
+# Pliki użytkownika / lokalna konfiguracja
+.env.local
+.env.*
+!.env.example
+
+# Laravel (jeśli używasz)
+storage/
+bootstrap/cache/
+
+# Pliki baz danych i backupy
+*.sql
+*.sqlite
+*.bak
+
+# Inne
+coverage/
+*.tgz
+*.zip
+*.tar
